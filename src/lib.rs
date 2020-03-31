@@ -9,6 +9,7 @@ pub mod verdicts {
     pub const VERDICT_RE: &'static str = "RE";
     pub const VERDICT_WJ: &'static str = "WJ";
     pub const VERDICT_SE: &'static str = "SE";
+    pub const VERDICT_CE: &'static str = "CE";
 }
 
 #[derive(Clone, Serialize, Deserialize)]
