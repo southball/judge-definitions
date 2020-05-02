@@ -26,5 +26,6 @@ pub struct JudgeOutput {
     pub verdict: String,
     pub time: f64,
     pub memory: i64,
+    pub compile_message: String,
     pub testcases: Vec<TestcaseOutput>,
 }
